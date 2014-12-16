@@ -3,7 +3,7 @@ Connect four game
 
 Boardgame by Hasbr#
 
-Heroku app: (connect-four-test.herokuapp.com)[connect-four-test.herokuapp.com]
+Heroku app: http://connect-four-test.herokuapp.com
 
 Dependencies
 ============
