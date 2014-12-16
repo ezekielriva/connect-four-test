@@ -1,0 +1,17 @@
+.game-board {
+  width:  600px;
+  height: 600px;
+  border: 1px solid blue;
+  border-collapse: collapse;
+  margin: 0 auto;
+
+  a {
+    color: black;
+    text-decoration: none;
+    line-height: 25px; }
+
+  td {
+    border: 1px solid blue;
+    width:  12%;
+    height: 12%; }
+}

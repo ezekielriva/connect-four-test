@@ -1,0 +1,9 @@
+<h1>Welcome to Connect four game</h1>
+
+<h3>Player list:</h3>
+
+<ul>
+  <% @users.each_with_index do |user, index| %>
+  <li><%= link_to user.name, game_path(id: index + 1) %></li>
+  <% end %>
+</ul>
