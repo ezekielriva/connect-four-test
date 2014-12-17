@@ -11,3 +11,4 @@ gem 'sdoc', '~> 0.4.0',           group: :doc
 gem 'spring',                     group: :development
 gem 'faye-rails'
 gem 'thin'
+gem 'rails_12factor', group: :production
