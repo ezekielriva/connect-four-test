@@ -3,7 +3,6 @@
 <h3>Player list:</h3>
 
 <ul>
-  <% @users.each_with_index do |user, index| %>
-  <li><%= link_to user.name, game_path(id: index + 1) %></li>
-  <% end %>
+  <li><%= link_to 'Player 1', game_path(1) %></li>
+  <li><%= link_to 'Player 2', game_path(2) %></li>
 </ul>

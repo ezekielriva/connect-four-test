@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require faye
-//= require_tree .
+//= require players
+//= require winner
+//= require games
+//= require app

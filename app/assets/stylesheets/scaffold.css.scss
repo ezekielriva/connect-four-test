@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.alert {
+  display: none;
+  min-height: 25px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  background: #F44336;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.title {
+  line-height: 46px;
+}
+
+.my-turn {
+  background: #2196F3;
+  color: white;
+  display: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 18px;
+  line-height: 42px;
+  margin-top: -5px;
+}
